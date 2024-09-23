@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Walter Ferrufino</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- NAV -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="sections-container">
+            <ul>
+              <li><a href="#top">Inicio</a></li>
+              <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#form">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAV ENDS -->
+
+      <!-- PRESENTACION -->
+      <section class="presentation hidden-section" id="presentation">
+        <figure class="profile_picture">
+          <img loading="lazy" src="/assets/profile_picture.jpeg" alt="" />
+        </figure>
+        <h1 class="full-name">
+          <div class="names">
+            <span class="first-name">WALTER </span>
+            <span class="second-name">MANUEL</span>
+          </div>
+          <span class="last-name">FERRUFINO</span>
+        </h1>
+      </section>
+      <!-- PRESENTACION ENDS -->
+
+      <!-- HABILIDADES -->
+      <section class="skills-section hidden-section-right" id="skills">
+        <h2 class="subtitle">Habilidades</h2>
+        <div class="skills-container">
+          <div class="skills">
+            <div class="languages">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JS</span>
+            </div>
+            <div class="bars">
+              <p class="only-sm">HTML5</p>
+              <span class="bars-span">Jedi</span>
+              <p class="only-sm">CSS3</p>
+              <span class="bars-span">Ninja</span>
+              <p class="only-sm">JS</p>
+              <span class="bars-span">Rookie</span>
+            </div>
+          </div>
+          <div class="carousel-container">
+            <div class="content-all">
+              <div class="content-carousel">
+                <figure>
+                  <img loading="lazy" src="assets/html5-icon.svg" />
+                </figure>
+                <figure>
+                  <img loading="lazy" src="assets/css3-icon.svg" />
+                </figure>
+                <figure><img loading="lazy" src="assets/js-icon.svg" /></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HABILIDADES ENDS -->
+
+      <!-- PROYECTOS -->
+      <section id="proyectos" class="proyects-container hidden-section">
+        <h2 class="proyectos">Proyectos</h2>
+        <a
+          class="github-icon"
+          href="https://github.com/WalterFerrufino"
+          target="_blank"
+          ><img loading="lazy" src="/assets/github-icon.svg" alt=""
+        /></a>
+      </section>
+      <!-- PROYECTOS ENDS -->
+
+      <!-- FORM -->
+      <section class="form-section hidden-section-right">
+        <h2 class="contact">Contacto</h2>
+        <form action="" id="form">
+          <div class="input-field">
+            <input type="text" required />
+            <label>Escriba aquí su nombre</label>
+          </div>
+          <div class="input-field">
+            <input type="text" required />
+            <label>Escriba aquí su email</label>
+          </div>
+          <div class="input-field">
+            <textarea placeholder="Escriba aquí su mensaje"></textarea>
+          </div>
+          <button class="form-button">Enviar</button>
+        </form>
+      </section>
+      <!-- FORM ENDS -->
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
